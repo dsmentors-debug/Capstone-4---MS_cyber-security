@@ -13,8 +13,8 @@ Cybersecurity Concepts and Frameworks
 Handling Imbalanced Datasets
 Model Benchmarking and Optimization
 
-**Data Preprocessing Steps:
-**Handling missing values Feature engineering (e.g., timestamp transformation) Encoding categorical variables Normalization/Standardization of numerical features Approach
+****Data Preprocessing Steps:
+****Handling missing values Feature engineering (e.g., timestamp transformation) Encoding categorical variables Normalization/Standardization of numerical features Approach
 
 1. Data Exploration
 Inspect the dataset (train.csv) for feature types and distributions. Perform Exploratory Data Analysis (EDA) to identify correlations and class imbalances.
@@ -38,6 +38,7 @@ Analyze feature importance using SHAP values or permutation importance. Conduct 
 Evaluate the final model on the test.csv dataset and report performance metrics (macro-F1, precision, recall). Compare results with baseline performance to ensure model improvement.
 
 **Results**
+
 By the end of this project, the goal is to:
 
 Develop a machine learning model that accurately predicts the triage grade of cybersecurity incidents (TP, BP, FP) with a high macro-F1 score, precision, and recall.
